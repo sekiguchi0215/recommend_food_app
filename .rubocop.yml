@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.7.2
+  NewCops: enable
+  Exclude:
+   - "assets/**/*"
+   - "bin/**/*"
+   - "db/schema.rb"
+   - "log/**/:"
+   - "node_modules/**/*"
+   - "tmp/**/*"
+   - "vendor/**/*"
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+Rails/FilePath:
+  Exclude:
+   - "config/environments/development.rb"
+
+Rails/Output:
+  Exclude:
+   - "db/seed.rb"
