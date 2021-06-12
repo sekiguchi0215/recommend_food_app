@@ -49,3 +49,5 @@ end
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 gem "devise"
+gem "devise-i18n"
+gem "rails-i18n", "~> 6.0"
