@@ -14,7 +14,7 @@ AllCops:
    - "tmp/**/*"
    - "vendor/**/*"
 
-StringLiterals:
+Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Rails/FilePath:
@@ -24,3 +24,21 @@ Rails/FilePath:
 Rails/Output:
   Exclude:
    - "db/seed.rb"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 160
+
+Style/WordArray:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false

@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create!(email: "test@example.com", password: "password")
-puts "ユーザーの初期データインポートに成功しました。"
+# puts "ユーザーの初期データインポートに成功しました。"
