@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
 email = "test@example.com"
 password = "password"
 
@@ -22,4 +21,4 @@ user3.foods.create!(name: "コーンフレーク")
 
 User.create!(email: email, password: password)
 
-puts "ユーザーの初期データインポートに成功しました。"
+# puts "ユーザーの初期データインポートに成功しました。"

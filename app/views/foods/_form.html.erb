@@ -1,0 +1,13 @@
+<%= form_with model: @food, locale: true do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :comment %>
+    <%= f.text_area :comment %>
+  </div>
+  <div>
+    <%= f.submit "送信" %>
+  </div>
+<% end %>
