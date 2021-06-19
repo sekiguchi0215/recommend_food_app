@@ -31,7 +31,10 @@ class FoodsController < ApplicationController
     redirect_to @food
   end
 
-  def destroy; end
+  def destroy
+    @food.destroy!
+    redirect_to root_path
+  end
 
   private
 
