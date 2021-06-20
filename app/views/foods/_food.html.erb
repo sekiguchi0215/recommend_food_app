@@ -1,7 +1,6 @@
 <div>
   <p>【メールアドレス】<%= food.user.email %></p>
   <p>【食品名】<%= food.name %></p>
-  <p><%= food.comment %></p>
   <p>
     <%= link_to "詳細", food_path(food) %>
     <% if current_user.id == food.user_id %>
