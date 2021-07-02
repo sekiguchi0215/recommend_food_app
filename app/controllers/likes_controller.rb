@@ -1,5 +1,4 @@
 class LikesController < ApplicationController
-  
   def create
     @food = Food.find(params[:food_id])
     current_user.likes.create!(food_id: params[:food_id])
